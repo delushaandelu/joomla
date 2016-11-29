@@ -1,0 +1,250 @@
+/*Button Slider*/
+.custom-buttom {
+ border: 2px solid #fff;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    padding: 7px 33px 7px 9px;
+	border-radius:3px;
+    box-shadow:5px 5px rgba(204, 204, 204, 0.89);
+}
+.custom-buttom:hover
+{
+	text-decoration: none;
+	 color: #ffffff;
+}
+
+
+.zoomLens{
+border: 4px solid #888;
+    border-radius: 100%;
+	
+}
+ .pagenav{
+
+
+border:none;
+}
+
+/*bold*/
+
+.bold1,
+.bold2,
+.border
+{
+display: inline-block;
+color: #ffffff;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.border{
+padding: 5px 10px;
+border: 1px solid #ffffff;
+}
+
+/*Line*/
+.border-line
+{
+position:relative;
+}
+.border-line:before
+{
+background: #ffffff;
+bottom: -13px;
+content: "";
+display: block;
+height: 2px;
+position: absolute;
+width: 130px;
+}
+.border-line:before
+{
+left: 50%;
+margin-left: -60px;
+}
+
+/*Slide*/
+@media (min-width: 320px) and (max-width: 1024px) {
+ .sprocket-features-pagination  { display: none;}
+}
+
+
+@media (min-width: 320px) and (max-width: 1024px) {
+ .acymailing_module_form .acymailing_form .acysubbuttons input.button.btn { 
+
+  font-size: 14px;
+    height: 45px;
+    text-align: center;
+    width: 186%;
+}
+}
+
+
+@media (max-width: 1200px){
+    	 .sp-megamenu-parent {
+			display: none !important;
+		}
+		#offcanvas-toggler {
+			display: inline-block !important;
+			visibility: visible;
+		}
+}
+
+
+#sp-top-a{
+z-index:0;
+}
+.sp-module .sp-module-title {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
+
+ .sp-module-title::after {
+
+    border-radius: 5px;
+    content: "";
+    display: block;
+    height: 2px;
+   margin:20px -5px;
+    position: relative;
+    width: 50px;
+    z-index: 1;
+}
+
+.btn-primary:hover{
+box-shadow:0 -3px rgba(0, 0, 0, 0.3) inset;
+text-shadow:0 -1px 0 rgba(0, 0, 0, 0.17);
+border: 0 none;
+}
+.btn-primary{
+box-shadow:0 -3px rgba(0, 0, 0, 0.3) inset;
+text-shadow:0 -1px 0 rgba(0, 0, 0, 0.17);
+border: 0 none;
+}
+
+/* HEADER Kunena
+----------------------------------------------------------------------------------------------- */
+#Kunena td.kprofileboxcnt .k_guest{
+	margin-bottom: 30px;
+	margin-top: 10px;
+	font-size: 36px;
+	font-weight: 200;
+}
+#Kunena td.kprofileboxcnt {
+	text-align:left;
+	width: 95%;
+	vertical-align:middle;
+	padding:5px;
+}
+#Kunena div.kblock {
+	display: table;
+	table-layout:fixed;
+	width: 100%;
+	border: none;
+	margin: 5px 0 0 0;
+	clear: both;
+}
+#Kunena .kblock div.kheader {
+	border-bottom:2px solid;
+	padding:0 10px 0 10px;
+}
+#Kunena .kheader h2,
+#Kunena .kheader h2 a {
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 0;
+}
+#Kunena a {
+	text-decoration: none;
+}
+#Kunena div.kblock > div.kheader, #Kunena .kblock div.kheader{
+	padding: 17px 20px;
+	border:none!important;
+}
+#Kunena a:link,
+#Kunena a:visited,
+#Kunena a:active {}
+#Kunena a:focus {outline: none;}
+#Kunena a:hover {
+	color: #000!important;
+}
+#Kunena tr.krow1 td,#Kunena tr.krow2 td {
+padding: 20px!important;
+}
+#Kunena td.kprofileboxcnt form div.input{
+	overflow: hidden;
+	display: block;
+}
+#Kunena td.kprofileboxcnt form div.input span{
+	float: left;
+	margin-right: 30px;
+	font-weight: lighter;
+} 
+#Kunena td.kprofileboxcnt form div.input span:last-child{
+	margin: 20px 0;
+}
+#Kunena td.kprofileboxcnt form div.input span:last-child input[type="submit"]{
+	border:none;
+	color: #fff;
+	padding: 7px 30px;
+	font-weight: normal;
+}
+#Kunena div.kblock.kpathway{
+	margin: 20px 0;
+}
+#Kunena td.kprofileboxcnt form div.input span input{
+	border-radius: 0;
+	box-shadow: none;
+}
+#Kunena td.kprofileboxcnt form div.klink-block span{
+	margin-right: 10px;
+} 
+#Kunena td.kprofileboxcnt form div.klink-block span a{
+}
+#Kunena td.kprofileboxcnt ul {
+margin: 5px 0 5px 5px;
+padding-left: 0;
+}
+#Kunena td.kprofileboxcnt ul.kprofilebox-link {
+margin: 5px 0;
+}
+
+.zen-skill-bar-percent {
+    color: #fff;
+    font-size: 16px;
+    height: 47px;
+    line-height: 35px;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    font-weight: 500;
+}
+ .sprocket-features.layout-slideshow .sprocket-features-arrows .arrow {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 2px solid #111;
+    box-shadow: none;
+    color: #111;
+    font-size: 45px;
+    height: 45px;
+    line-height: 33px;
+    margin-top: -25px;
+    transition: all 0.3s ease 0s;
+    width: 45px;
+}
+
+.uk-text-white {
+    color: #fff !important;
+}
+.uk-icon-background {
+    font-size: 150px;
+    left: -10px;
+    opacity: 0.1;
+    position: absolute;
+    top: -10px;
+    transform: rotate(-15deg);
+}

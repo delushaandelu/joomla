@@ -1,0 +1,133 @@
+.heading
+{
+	background: #194476 !important;
+	display: block;
+	padding: 5px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 2px;
+	font-size: 12px;
+	text-transform: none;
+	line-height: 24px;
+}
+.sub-heading
+{
+	background: #2c6700 !important;
+	display: block;
+	padding: 5px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 2px;
+	font-size: 12px;
+	text-transform: none;
+	line-height: 24px;
+}
+
+.nav-tabs
+{
+border-bottom: 1px solid #ccc;
+}
+.temp_description 
+{
+border: 2px solid #eee;
+padding: 12px;
+color: #000;
+font-size: 12px;
+
+}
+.tab-content
+{
+border: 2px solid #eee;
+padding: 12px;
+}
+
+
+ul#myTabTabs.nav.nav-tabs:before,
+ul#myTabTabs.nav.nav-tabs:hover:before,
+ul#myTabTabs.nav.nav-tabs a[href="#details"]:before,
+ul#myTabTabs.nav.nav-tabs a[href="#attrib-style"]:before,
+ul#myTabTabs.nav.nav-tabs a[href="#attrib-logo"]:before,
+ul#myTabTabs.nav.nav-tabs a[href="#attrib-mobile"]:before,
+ul#myTabTabs.nav.nav-tabs a[href="#attrib-suffix"]:before,
+ul#myTabTabs.nav.nav-tabs a[href="#attrib-analytics"]:before,
+ul#myTabTabs.nav.nav-tabs a[href="#assignment"]:before {
+
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none !important;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  position: relative;
+  padding-right: 12px;
+  color: #444;
+  font-size: 12px;
+  text-transform: none;
+}
+
+div#myTabContent .span6 {
+  margin-top: 14px;
+  margin-left: 0;
+  width: 100%;
+}
+ul#myTabTabs.nav.nav-tabs li a {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 7px 14px;
+  line-height: 24px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border-radius: 2px;
+  background: #ffffff;
+  background: -moz-linear-gradient(top,#ffffff 0%,#ededed 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffffff),color-stop(100%,#ededed));
+  background: -webkit-linear-gradient(top,#ffffff 0%,#ededed 100%);
+  background: -o-linear-gradient(top,#ffffff 0%,#ededed 100%);
+  background: -ms-linear-gradient(top,#ffffff 0%,#ededed 100%);
+  background: linear-gradient(top,#ffffff 0%,#ededed 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#ededed',GradientType=0);
+  color: #2c6700;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: none;
+ 
+}
+ul#myTabTabs.nav.nav-tabs li.active a,
+ul#myTabTabs.nav.nav-tabs > li a:hover {
+  background: #2c6700;
+  color: #fff;
+  border: 1px solid #eeeeee;
+  border-radius: 2px;
+}
+ul#myTabTabs.nav.nav-tabs a:hover:before,
+ul#myTabTabs.nav.nav-tabs li.active a:before {
+  color: #fff;
+  border-radius: 2px;
+}
+
+div#myTabContent .control-group hr { border-top: 1px solid #dddddd; border-bottom: 1px solid #ffffff; width: 38em; }
+div#myTabContent .control-label { width: 20em; }
+div#myTabContent textarea { width: 400px; }
+
+@media handheld, only screen and (max-width: 800px) {
+
+  ul#myTabTabs.nav.nav-tabs {
+    border: 0px none;
+  }
+  ul#myTabTabs.nav.nav-tabs > li {
+    float: none;
+  }
+  ul#myTabTabs.nav.nav-tabs li a,
+  ul#myTabTabs.nav.nav-tabs li.active a,
+  ul#myTabTabs.nav.nav-tabs > li a:hover {
+    border-radius: 2px;
+  }
+  ul#myTabTabs.nav.nav-tabs li a {
+    background-color: #fff;
+  }
+
+}
+

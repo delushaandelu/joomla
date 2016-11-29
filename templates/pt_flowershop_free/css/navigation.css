@@ -1,0 +1,170 @@
+/*DISABLE DROPDOWN LIST FOR SMALL DEVICES*/
+#hor_nav SELECT
+{
+	display: none;
+}
+SELECT
+{
+	width: auto;
+}
+#hor_nav
+{
+	padding: 0px;
+	background-color: #172E4D;
+}
+#hor_nav .menu
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#hor_nav .menu .icon-angle-right
+{
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -6px;
+	font-size: 12px;
+}
+#hor_nav .menu > LI
+{
+	display: block;
+	float: left;
+}
+#hor_nav .menu > LI UL
+{
+}
+#hor_nav .menu UL
+{
+	position: absolute;
+	left: 0;
+	top: 100%;
+	margin: 10px 0 0 0;
+	/*IE6 only*/
+	_margin: 0;
+	opacity: 0;
+	transition: all 0.4s ease-in-out;
+	visibility: hidden;
+	z-index: 99;
+}
+#hor_nav .menu UL UL
+{
+	left: 100%;
+	top: 0;
+}
+#hor_nav .menu UL UL LI
+{
+	width: 100%;
+}
+#hor_nav .menu LI
+{
+	position: relative;
+	list-style: none;
+}
+#hor_nav .menu LI:hover > UL
+{
+	margin: 0;
+	opacity: 1;
+	visibility: visible;
+}
+#hor_nav .menu A
+{
+	display: block;
+	position: relative;
+	border-bottom: 0;
+	color: #666;
+}
+#hor_nav .menu LI A:hover
+{
+	-webkit-transition: all 2s ease;
+	transition: all 2s ease;
+}
+/*ACTIVE  ITEM*/
+#hor_nav .menu > LI > A:hover, #hor_nav .menu > LI.sfHover > A, #hor_nav .menu > .active > A, #hor_nav .active > A:hover, #hor_nav .active > A:hover
+{
+}
+#hor_nav .menu > .active > A, #hor_nav LI.active > A
+{
+}
+#hor_nav .menu > LI
+{
+	margin-right: 0;
+}
+/*LINE HEIGHT*/
+#hor_nav .menu A
+{
+	text-align: left;
+	text-decoration: none;
+	cursor: pointer;
+	line-height: 50px;
+	padding: 0 10px;
+}
+#hor_nav .menu A, SPAN.separator
+{
+	line-height: 50px;
+}
+/*SUBMENUS*/
+#hor_nav .menu UL
+{
+	min-width: 200px;
+}
+#hor_nav .menu UL
+{
+}
+#hor_nav .menu LI:hover UL
+{
+	margin-top: 1px;
+}
+#hor_nav .menu UL UL.sub-menu
+{
+	margin-top: -1px;
+	margin-left: 1px;
+}
+#hor_nav .menu UL LI
+{
+}
+#hor_nav .menu UL LI:first-child
+{
+}
+#hor_nav .menu UL LI:last-child
+{
+	border: 0;
+}
+#hor_nav .menu UL LI > A:hover, #hor_nav .menu UL LI > .active > A, #hor_nav UL LI.active > A
+{
+}
+#hor_nav .menu UL A
+{
+	display: block;
+	height: auto;
+	margin: 0px;
+	padding: 8px 15px;
+	text-transform: none;
+	border: 0px;
+	line-height: 20px;
+}
+#hor_nav .selector
+{
+	display: none;
+}
+#hor_nav UL.sub-menu .icon-angle-down:before
+{
+}
+#hor_nav UL.sub-menu A
+{
+	font-size: 12px;
+}
+#hor_nav I
+{
+	text-align: right;
+}
+#menu-icon
+{
+	display: none;
+}
+/*PADDING LI*/
+#hor_nav .menutitle
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
